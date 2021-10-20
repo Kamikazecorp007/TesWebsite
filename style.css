@@ -21,7 +21,7 @@ body{
     font-weight: 700;
     float: right;
     font-family: monospace;
-    color: paleturquoise;
+    color: rgb(55, 0, 255);
 }
 
 .menu {
@@ -60,4 +60,52 @@ nav ul li a {
 
 nav ul li a:hover{
     text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: firebrick;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: brown;
+    width: 100%;
+    line-height: 50px;
+}
+
+a. tbl-merah{
+    background: crimson;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: floralwhite;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a. tbl-merah:hover {
+    background: gold;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
